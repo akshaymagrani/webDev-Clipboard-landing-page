@@ -93,12 +93,14 @@ p{
     transform: scale(0.5);
     margin: 1em;
 }
-.f-icon{
+svg{
+    fill:"#4C545C";
+    fill-rule:"nonzero";
     margin: 1em;
     cursor: pointer;
 }
-.f-icon:hover{
-    color: var(--strongCyan);
+svg:hover{
+    fill: var(--strongCyan);
     cursor: pointer;
 }
 .image-devices{
